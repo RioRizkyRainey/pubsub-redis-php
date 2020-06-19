@@ -1,12 +1,8 @@
-php:
-    preset: psr12
-    risky: true
-    tab-width: 4
-    use-tabs: false
-    finder:
-      exclude:
-        - "modules"
-        - "node_modules"
-        - "storage"
-        - "vendor"
-      name: "*.php"
+preset: psr12
+risky: true
+tab-width: 4
+use-tabs: false
+finder:
+    exclude:
+    - "vendor"
+    name: "*.php"
