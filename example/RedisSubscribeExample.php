@@ -10,8 +10,8 @@ $client = new Predis\Client([
     'read_write_timeout' => 0,
 ]);
 
-$redisPublishAdapter = new \RioRizkyRainey\PubsubRedis\RedisSubscribeAdapter();
-$redisPublishAdapter->setClient($client)
+$redisSubscribeAdapter = new \RioRizkyRainey\PubsubRedis\RedisSubscribeAdapter();
+$redisSubscribeAdapter->setClient($client)
     ->setChannel('channel')
     ->subscribe(function ($message) {
         printf($message . PHP_EOL);
