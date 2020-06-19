@@ -69,11 +69,11 @@ $redisPublishAdapter->publishMessage('I don\'t feel good mr stark');
 
 ## Contributing
 
-Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/RioRizkyRainey/pubsub-redis-php/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/RioRizkyRainey/pubsub-redis-php/tags). 
 
 ## Authors
 
